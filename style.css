@@ -1,0 +1,62 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.titulo{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#inicio {
+  position: relative;
+  background-image: url("matt-hardy-6ArTTluciuA-unsplash.jpg");
+  height: 100dvh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+.navigation-card {
+  position: absolute;
+  top: 60px; /* ajustá esto según lo que quieras */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgba(92, 108, 116, 0.192);
+  padding: 15px 20px;
+  border-radius: 50px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  background-color: rgba(47, 55, 59, 0.144);
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.tab:hover {
+  background-color: rgba(47, 55, 59, 0.267);
+}
+
+html, body {
+  height: 100%;
+}
+
+#acerca-de-mi p {
+  margin-top: 1%;
+}
+
