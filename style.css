@@ -11,7 +11,7 @@
 
 #inicio {
   position: relative;
-  background-image: url("matt-hardy-6ArTTluciuA-unsplash.jpg");
+  background-image: url("img/matt-hardy-6ArTTluciuA-unsplash.jpg");
   height: 100dvh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 
 .navigation-card {
   position: absolute;
-  top: 60px; /* ajustá esto según lo que quieras */
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -56,7 +56,78 @@ html, body {
   height: 100%;
 }
 
-#acerca-de-mi p {
-  margin-top: 1%;
+#acerca-de-mi {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
 }
+
+#acerca-de-mi p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+
+
+}
+
+.titulo p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+
+.titulo h1 {
+  font-size: 3rem; /* tamaño adaptable */
+}
+
+@media (max-width: 1024px) {
+  .titulo {
+    padding-top: 200px;
+  }
+
+  .titulo h1 {
+    font-size: 2.5rem;
+  }
+
+  .titulo p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    padding-top: 150px;
+  }
+
+  .titulo h1 {
+    font-size: 2rem;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+  }
+
+  .navigation-card {
+    gap: 10px;
+    padding: 8px 12px;
+  }
+
+  .tab {
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+  }
+
+  #acerca-de-mi h2 {
+    font-size: 1.5rem;
+  }
+
+  #acerca-de-mi p {
+    font-size: 0.95rem;
+  }
+}
+
+
+
+
 
